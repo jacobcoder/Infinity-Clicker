@@ -19,7 +19,7 @@ function numClickMultClick(){
     document.getElementById("normNumMult").innerHTML = "Your number gain is multiplied by "+normNumMult+"."
 }
 //stage 1.2: Number Click Power Increments
-function numClickPowClick(){
+function numClickPowerClick(){
     normNumPower = normNumPower + 1
     document.getElementById("normNumPower").inner.html = "Your number is being exponentiated by "+normNumPower+"."
 }
