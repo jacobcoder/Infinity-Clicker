@@ -10,7 +10,7 @@ var metaNumMult = 1
 var metanumPower = 1
 //Stage 1: The Beginning
 function normNumClick(){
-    mainNumber = mainNumber + math.pow((1*normNumMult), normNumPower)
+    mainNumber = mainNumber + ExpandtaNum.pow((1*normNumMult), normNumPower)
     document.getElementById("mainNumber").innerHTML = "Your number is "+mainNumber+"."
 }
 //Stage 1.1: Number Click Mult Increments
